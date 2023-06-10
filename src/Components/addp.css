@@ -1,0 +1,644 @@
+.item label{
+    margin-left: 10px;
+}
+
+
+.item{
+    margin-bottom: 10px;
+}
+
+.hor{
+    width:100%;
+    height: 2px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.cc input{
+    margin-left: 10px;
+}
+
+.bgh{
+    margin: 10px;
+background: #e1cc78;
+padding: 10px;
+width: max-content;
+border-radius: 5px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.mr20{
+    margin-right: 20px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.bbn{
+    padding: 5px;
+background: green;
+margin: 0 11px;
+color: #fff;
+border-radius: 5px;
+}
+
+.kyu{
+    padding: 5px;
+    background: #f6ffed;
+    margin: 0 5px;
+    border-radius: 4px;
+    color: #389e0d;
+    border: 1px solid #b7eb8f;
+}
+
+.Pending{
+    padding: 5px;
+    background: #f6ffed;
+    margin: 0 5px;
+    border-radius: 4px;
+    color: #389e0d;
+    border: 1px solid #b7eb8f;
+}
+
+.pool span{
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.pool span:last-child{
+    background: brown;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.loadi{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulno{
+    list-style: none;
+    padding-left: 0;
+}
+
+.ulxx{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.ulno > li > span{
+    font-weight: bold;
+}
+
+.ulno .itt:hover{
+    background: red;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.sdfg{
+    margin-top: 30px;
+}
+
+.sdfg input{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.sdfg > div{
+    margin-bottom: 10px;
+}
+
+.itemmm{
+    padding: 10px;
+    background: #9c5972;
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    margin-top: 14px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.dflex{
+    display: flex;
+}
+
+.aslll{
+    background: green;
+    color: #fff;
+}
+
+.myItem{
+    margin-bottom: 10px;
+}
+
+.myItem label{
+    min-width: 100px !important;
+    display: inline-block;
+}
+
+.myItem input{
+    background: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.aslispan{
+    background: green;
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+margin-right: 10px;
+}
+
+.qqq{
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ml20{
+    margin-left: 20px;
+}
+
+.vbb{
+    padding: 10px 5px;
+    background: #f3b149;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.item label {
+    min-width: 100px!important;
+    display: inline-block;
+}
+
+.x212{
+    margin-top: 0px;
+/* background: #eee; */
+padding: 10px;
+border-radius: 3px;
+}
+
+.circle{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+
+.vvvbb{
+    padding: 10px 10px;
+margin: 10px 0;
+background: #eee;
+display: flex;
+}
+
+.vvvbb > div{
+    margin-left: 10px;
+}
+
+
+.ddf span{
+    min-width: 150px;
+    display: inline-block;
+}
+
+.ddf{
+    margin: 10px 0;
+}
+
+.mt30{
+    margin-top: 30px!important;
+}
+
+.myMod{
+    text-align: right;
+    direction: rtl;
+}
+
+.myMod > div{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.myMod > div > span:first-child{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.myMod > div > span:last-child{
+    margin-right: 10px;
+}
+
+.myMod > div > input , .myMod > div > select{
+    margin-right: 10px;
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dropzone:hover {
+    border-color: #aaa;
+  }
+  
+  .dropzone .dz-message {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .loading1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00000086;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .ig{
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .del{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: rgb(215, 76, 76);
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+
+  /* Upload Center */
+  .uploadcenter{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+
+  .uploadcenter > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(161, 68, 68);
+    color: #fff;
+  }
+
+  .contentUploD{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .contImgs{
+    width: 11vw;
+    margin-left: 1%;
+    height: 23vh;
+    background: rgb(8, 129, 70);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .iptImg{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .imgsUp{
+    width: 100%;
+    height: 100%;
+  }
+
+  .c23 > *{
+    margin: 0 5px;
+  }
+
+  .img456{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .code {
+    background-color: #f4f4f4;
+    border-left: 3px solid #7f7f7f;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    margin: 1em 0;
+    padding: 0.5em;
+  }
+
+  .allIn > div > label {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .allIn > div{
+    margin-bottom: 12px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 13px;
+  }
+
+  .newIpStyle{
+    padding: 11px;
+    width: 97%;
+    background: #ebebeb;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .cvvb{
+    width: 100%;
+    direction: ltr;
+    text-align: left;
+    min-height: 164px;
+    border: 2px solid #bcd2f1;
+    border-radius: 5px;
+  }
+
+  .pree{
+    text-align: left;
+    direction: ltr;
+    background: #060606;
+    color: #1eba1e;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .spnmet{
+    background: #fff4e0;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f2a71d;
+  }
+
+  .spnmet1{
+    background: #dbfde0;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #1c8a18;
+  }
+
+  .singCont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .singCont img{
+    width: 150px;
+    height: 150px
+  }
+
+  .sell{
+    border: 1px solid red;
+  }
+
+  .vImsh{
+    position: relative;
+    margin: 5px 0;
+    width: max-content;
+  }
+
+  .vImsh span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border-radius: 100px;
+    padding: 3px 10px;
+    border: 1px solid #ccc;
+
+  }
+
+  .vImsh img{
+    width: 300px;
+  }
+
+  .delItt{
+    background: rgb(241, 104, 104)!important;
+    position: absolute !important;
+    left: 10px !important;
+    top: 10px !important;
+    border-radius: 100px !important;
+    cursor: pointer !important;
+    right: inherit !important;
+  }
+
+  .srcdd{
+    width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+  position: relative;
+  }
+
+  .tbbk{
+    width: 100%;
+    background: #eee;
+    margin-top: 34px;
+  }
+
+  .tbbk th{
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid red;
+  }
+
+  .tbbk td{
+    padding: 10px 10px;
+  }
+
+  .xcvnn{
+    margin-bottom: 12px;
+  }
+  .xcvnn > *{
+    margin-left: 20px;
+  }
+
+  .csd{
+    background: green;
+    color: #fff;
+  }
+
+  .bbdg{
+    background: orange;
+  padding: 6px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  position: relative;
+  }
+
+  .del11{
+    position: absolute;
+  bottom: -28px;
+  right: 0;
+  background: #e67777;
+  padding: 3px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  }
+
+  .ant-layout-sider-children{
+    max-height: 100vh!important;
+    overflow-y: auto!important;
+  }
+
+  .contPrrr{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-height: 50vh;
+overflow-y: auto;
+  }
+
+  .contIttt{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    transition: 0.5s all;
+    cursor: pointer;
+
+  }
+
+  .contIttt > img{
+    max-width: 95%;
+  }
+
+  .serchCont{
+    padding: 10px;
+    min-width: 50%;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #eee;
+    background: #fafafa;
+  }
+
+  .actContIt{
+    border: 2px solid #eda3a3;
+box-shadow: 0px 0px 10px #bebebe;
+  }
+
+  .itc2{
+    padding: 23px 38px;
+background: #fff;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #bababa;
+width: max-content;
+  }
+
+  .tblMe{
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+  }
+
+  .tblMe th{
+    padding: 10px 10px;
+  }
+
+  .tblMe thead{
+    background: #d8d8d8;
+  }
+
+  .tblMe td{
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tblMe tbody{
+    background: #fff;
+  }
+  
+  .quill {
+    background: #fff;
+  }
+
+  .heeed{
+    margin-bottom: 20px;
+  }
+
+  .bb45{
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+background: white;
+padding: 10px;
+border-radius: 10px;
+  }
+
+  .bb45 > h3{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .bb45 > *{
+    margin-left: 10pc;
+  }

@@ -1,0 +1,53 @@
+ 
+
+    
+
+
+
+
+
+  <div className='hor'></div>
+  <div className='item'>
+    <label>رنگ بندی</label>
+    <div className='dflex mt10 acenter'>
+      <input type='color' value={val? val : ''} onChange={(e) => setVal(e.target.value)} />
+
+      <div className='ml10 mr10 dflex'>
+        <span>نام ویژگی</span>
+        <input placeholder='نام ویژگی' value={name} onChange={(e) => setName(e.target.value)} />
+      </div>
+      
+      <div className='ml10 mr10 dflex'>
+        <span>قیمت افزوده شده</span>
+        <input type="Number" value={priceAdd} onChange={(e) => setPriceAdd(e.target.value)}  placeholder='این مبلغ به قیمت اصلی اضافه میشه'/>
+      </div>
+      <div className='ml10 mr10 dflex'> 
+        <span>تعداد</span>
+        <input type="Number" value={quantity} onChange={(e) => setQuantity(e.target.value)} placeholder="تعداد"/>
+      </div>
+      <button onClick={() => {addColors()}}>افزودن</button>
+    </div>
+    <div>
+      {
+        colors.map((item,index) => 
+        <div className='vvvbb' key={index}>
+          <div>
+            <span>{item.name}</span>
+          </div>
+          <div>
+            <span>مبلغ</span>
+            <span>{item.price}</span>
+          </div>
+          <div>
+            <span>تعداد</span>
+            <span>{item.quantity}</span>
+          </div>
+          &nbsp; - &nbsp;
+          <div>{item.value}</div>
+
+          <button onClick={() => {deleteColor(item.name)}}>حذف</button>
+        </div>
+        )
+      }
+    </div>
+  </div>

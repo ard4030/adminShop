@@ -1,0 +1,32 @@
+.homing ul{
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+
+.homing ul li{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: auto;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.homing ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bgred{
+    background: 'green';
+}
+
+.container{
+    direction: rtl;
+}
+
+.pool{
+    text-align: center;
+}
