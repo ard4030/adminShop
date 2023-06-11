@@ -23,6 +23,8 @@ import ProSlider from '../Components/ProSlider';
 import Shegeft from '../Components/Shegeft';
 import SlidersBottom from '../Components/SlidersBottom';
 import Articles from '../Components/Articles';
+import Comments from '../Components/Comments';
+import Questions from '../Components/Questions';
 
 const { Header, Sider, Content  } = Layout;
 
@@ -204,6 +206,22 @@ const Home = () => {
                   onClick={()=>SettingShow({name:"مقالات",comp:<Articles />})}
                   type={(show.name === 'مقالات')? `primary` : 'text' } size={'large'}>
                     مقالات
+                  </Button>
+                </li>
+
+                <li>
+                  <Button 
+                  onClick={()=>SettingShow({name:"نظرات",comp:<Comments />})}
+                  type={(show.name === 'نظرات')? `primary` : 'text' } size={'large'}>
+                    نظرات
+                  </Button>
+                </li>
+
+                <li>
+                  <Button 
+                  onClick={()=>SettingShow({name:"سوالات",comp:<Questions />})}
+                  type={(show.name === 'سوالات')? `primary` : 'text' } size={'large'}>
+                    سوالات
                   </Button>
                 </li>
 
